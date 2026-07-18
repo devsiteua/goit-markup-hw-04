@@ -17,6 +17,21 @@
   width: calc((100% - 72px) / 4);
 }
 
+.features-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+  background-color: var(--light-color);
+}
+
+.features-icon {
+  display: block;
+}
+
 .features-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
